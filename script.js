@@ -5,7 +5,7 @@ function reloadJSON() {
     getAndRenderJSON(URL);
 }
 
-var ourRequest = new XMLhttpRequest();
+var ourRequest = new XMLHttpRequest();
 /* ourRequest.open('GET', 'https://conwasa.github.io/radiotext1/WorldAtOne-20180816_first_2mins.json'); */
 /* ourRequest.open('GET', 'https://conwasa.github.io/radiotext1/womans_hour_2mins.json') */
 var URL = 'https://conwasa.github.io/radiotext1/womans_hour_2mins.json';
