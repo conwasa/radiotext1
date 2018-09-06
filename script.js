@@ -1,17 +1,14 @@
 /* window.onload = function () {      */
-console.log('goose');
 function reloadJSON() {
-	console.log('in reload json');
     var file = document.getElementById("selectJSON").value;
-    var URL = 'http://conwasa.github.io/radiotext1/' + file;
+    var URL = 'https://conwasa.github.io/radiotext1/' + file;
     getAndRenderJSON(URL);
 }
 
-console.log('hello');
-var ourRequest = new XMLHttpRequest();
-/* ourRequest.open('GET', 'http://conwasa.github.io/radiotext1/WorldAtOne-20180816_first_2mins.json'); */
-/* ourRequest.open('GET', 'http://conwasa.github.io/radiotext1/womans_hour_2mins.json') */
-var URL = 'http://conwasa.github.io/radiotext1/womans_hour_2mins.json';
+var ourRequest = new XMLhttpsRequest();
+/* ourRequest.open('GET', 'https://conwasa.github.io/radiotext1/WorldAtOne-20180816_first_2mins.json'); */
+/* ourRequest.open('GET', 'https://conwasa.github.io/radiotext1/womans_hour_2mins.json') */
+var URL = 'https://conwasa.github.io/radiotext1/womans_hour_2mins.json';
 
 getAndRenderJSON(URL);
 
